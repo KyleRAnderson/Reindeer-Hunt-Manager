@@ -1,9 +1,22 @@
 @import "bootstrap";
 
+$reindeer-red: #ff0000;
+$reindeer-grey: #858585;
+
 /* universal */
 
 body {
   padding-top: 60px;
+}
+
+.reindeer-button {
+  background-color: $reindeer-red;
+  color: black;
+  border-color: white;
+
+  &:hover {
+    background-color: $reindeer-grey;
+  }
 }
 
 section {
@@ -16,10 +29,10 @@ textarea {
 
 .center {
   text-align: center;
-}
 
-.center h1 {
-  margin-bottom: 10px;
+  h1 {
+    margin-bottom: 10px;
+  }
 }
 
 /* typography */
@@ -58,3 +71,55 @@ p {
   padding-top: 9px;
   padding-left: 15px;
 }
+
+#logo-text {
+  text-transform: uppercase;
+  float: left;
+  padding-right: 9px;
+  padding-left: 9px;
+  color: $reindeer-red;
+  background-color: none;
+  font-weight: bold;
+
+  &:hover {
+    color: $reindeer-grey;
+    text-decoration: none;
+    background-color: none;
+  }
+}
+
+.bg-reindeer {
+  background-color: black;
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: $reindeer-grey;
+
+  a {
+    color: #555;
+
+    &:hover {
+      color: #222;
+    }
+  }
+
+  small {
+    float: left;
+  }
+
+  ul {
+    float: right;
+    list-style: none;
+
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}
+
