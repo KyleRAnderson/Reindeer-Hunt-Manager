@@ -4,5 +4,13 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"[ruby]": {
+			"editor.formatOnSave": true
+		},
+		"ruby.lint": {
+			"rubocop": true
+		},
+		"editor.tabSize": 2,
+	}
 }
