@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.6.3
+before_script:
+  - bundle exec rake db:create --all
+  - bundle exec rake db:migrate
+script:
+  - bundle exec rails test
+services:
+  - postgresql
