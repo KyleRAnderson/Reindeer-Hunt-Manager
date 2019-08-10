@@ -1,6 +1,8 @@
 # README
 Reindeer Hunt Manager application, for managing the Sacred Heart annual Reindeer Hunt, and other similar competitions.
 
+[![Build Status](https://travis-ci.com/KyleRAnderson/Reindeer-Hunt-Manager.svg?branch=master)](https://travis-ci.com/KyleRAnderson/Reindeer-Hunt-Manager)
+
 Use Ruby 2.6.3
 
 # History
