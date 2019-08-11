@@ -8,3 +8,7 @@ script:
   - bundle exec rails test
 services:
   - postgresql
+notifications:
+  email:
+    on_success: never
+    on_failure: always
