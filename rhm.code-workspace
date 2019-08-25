@@ -12,5 +12,7 @@
 			"rubocop": true
 		},
 		"editor.tabSize": 2,
+		"ruby.format": "rubocop",
+		"editor.formatOnSave": true,
 	}
 }
