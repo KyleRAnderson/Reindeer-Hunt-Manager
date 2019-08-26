@@ -2,8 +2,12 @@
 
 one:
   name: MyString
-  extra_attributes: MyString
+  extra_attributes:
+    - MyString
+    - 'Test123'
 
 two:
   name: MyString
-  extra_attributes: MyString
+  extra_attributes: 
+    - MyString
+    - 'Test123'
