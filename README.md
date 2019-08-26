@@ -78,6 +78,14 @@ su                                                        # Login as the root us
 ```
 Once these steps have been completed, you can exit the `psql` console with CTRL-D, then exit the postgres user with CTRL-D, then click CTRL-D again to exit the root account.
 
+## Install Yarn
+```bash
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update && sudo apt-get install yarn
+yarn install
+```
+
 ## Beginning development
 Change directory to the location where you have cloned the app. Run the following.
 ```bash
