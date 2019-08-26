@@ -46,6 +46,8 @@ gem 'pg'
 
 # Webpacker for nicer frontend
 gem 'webpacker', '~> 4.x'
+# React on rails for React in the frontent
+gem 'react_on_rails', '~> 11.3.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
