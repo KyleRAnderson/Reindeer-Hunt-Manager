@@ -2,6 +2,7 @@
 
 $reindeer-red: #ff0000;
 $reindeer-grey: #858585;
+$reindeer-contrast: white;
 
 /* universal */
 
@@ -9,13 +10,17 @@ body {
   padding-top: 60px;
 }
 
-.reindeer-button {
+.btn-reindeer {
   background-color: $reindeer-red;
-  color: black;
+  color: $reindeer-contrast;
   border-color: white;
 
   &:hover {
     background-color: $reindeer-grey;
+  }
+
+  &:visited {
+    color: $reindeer-contrast;
   }
 }
 
